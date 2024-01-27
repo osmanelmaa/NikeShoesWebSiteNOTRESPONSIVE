@@ -1,0 +1,163 @@
+/* base css start */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600&display=swap');
+*{
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body{
+            height: 100vh;
+            width: 100%;
+            background: #1E2227;
+            overflow-x: hidden;
+            height: 100vh;
+           
+}
+img{
+            cursor: pointer;
+}
+
+/* base css end */
+/* navbar menu start */
+.navmenu{
+            background: #1E2227;
+            padding: 35px 8%;
+         
+}
+.navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+.logo img{
+            cursor: pointer;
+}
+.links a{
+            color: white;
+            text-decoration: none;
+            margin-right: 19px;
+            font-size: 25px;
+            transition: ease all 0.5s;
+}
+.links a:hover{
+            border-bottom: 2px solid #FF0000;
+            border-top: 2px solid #FF0000;
+}
+.icons i{
+            color: #ed3a3a;
+            font-size: 30px;
+            margin-right: 17px;
+
+}
+/* navbar menu end */ 
+
+/* home container start */
+
+.leftsection,
+.rightsection{
+            margin-top: 100px;
+}
+.home{
+            display: flex;
+            align-items: center;
+}
+.leftsection h2{
+            color: white;
+            font-size: 50px;
+            font-weight: 600;
+
+}
+.leftsection small{
+            color: #FF0000;
+}
+.leftsection{
+            width: 50%;
+            height: 100%;
+}
+.leftsection .price{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 91px;
+            margin-top: 30px;
+}
+.leftsection .price p{
+            color: white;
+
+}
+.leftsection .price .btn{
+            padding: 7px;
+            background: transparent;
+            border: 1px double #FF0000;
+            color: white;
+            transition: 0.5s ease all;
+}
+.leftsection .price .btn:hover{
+            color: #FF0000;
+            border: 1px solid white ;
+}
+.rightsection .shoes2{
+            background: #1E2227;
+}
+.rightsection{
+            width: 50%;
+            height: 100%;
+            
+}
+.rightsection img{
+            width: 800px;
+}
+.rightsection .shoes2 img{
+            width: 195px;
+}
+.rightsection .shoes2{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-right: 10px;
+}
+.rightsection .shoes2 .blue{
+            background: #0037AF;
+
+}
+.rightsection .shoes2 .green{
+            background: #00B300;
+}
+.rightsection .shoes2 .lightblue{
+            background: #003FC3;
+}
+.rightsection .shoes2 .red{
+            background: #FF0000;
+}
+
+.blue,
+.green,
+.lightblue,
+.red{
+            width: 100%;
+            margin-right: 7px;
+}
+/* home container end */
+
+
+/* shoes bg color animation start */ 
+
+.animatedimg{
+            transition: all 0.5s ease;
+            animation-name: img;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+}
+
+@keyframes img {
+           
+            25%  {background-color:#0037AF; left:0px; top:0px;}
+            50%  {background-color:#00B300; left:0px; top:px;}
+            75%  {background-color:#003FC3; left:0px; top:0px;}
+            100% {background-color:red; left:0px; top:0px;}
+}
+/* shoes bg color animation end */ 
+
+/* I took the photos and colors from Bilgisayar Genetiği youtube channel, teacher Emin Başbayan.
+All other CSS and HTML codes belong to me. */ 
